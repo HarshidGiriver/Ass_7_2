@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Ensure you replace placeholders with your actual GitHub repository details
-                git branch: 'main', url: 'https://github.com<your-username>/<repo-name>.git'
+                git branch: 'main', url: 'https://github.com/HarshidGiriver/Ass_7_2.git'
             }
         }
 
